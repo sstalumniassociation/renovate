@@ -1,6 +1,6 @@
 {
   "name": "@sstalumniassociation/renovate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Default renovatebot config for sstalumniassociation",
   "license": "MIT",
   "homepage": "https://github.com/sstalumniassociation/renovate",
