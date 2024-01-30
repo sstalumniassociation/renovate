@@ -1,0 +1,22 @@
+{
+  "name": "@sstalumniassociation/renovate",
+  "version": "0.1.0",
+  "description": "Default renovatebot config for sstalumniassociation",
+  "license": "MIT",
+  "homepage": "https://github.com/sstalumniassociation/renovate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstalumniassociation/renovate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sstalumniassociation/renovate/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "prepare": "pnpm validate"
+  },
+  "devDependencies": {
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@8.13.1"
+}
